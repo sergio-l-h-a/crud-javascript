@@ -27,9 +27,9 @@ Permite cadastrar, listar, editar e excluir usuários de forma simples e eficien
 Banco de Dados
 MySQL
 
-📂 Estrutura do Projeto
-Código
-crud-usuario/
+### 📂 Estrutura do Projeto
+- Código
+- crud-usuario/
 │
 ├── backend/
 │   ├── controllers/
@@ -46,44 +46,45 @@ crud-usuario/
     ├── index.html
     ├── script.js
     └── styles.css
-⚙️ Configuração do Backend
-1️⃣ Instale as dependências
-bash
-npm install
-2️⃣ Configure o arquivo .env
-Crie um arquivo .env dentro da pasta backend:
+### ⚙️ Configuração do Backend
+- 1️⃣ Instale as dependências
+- bash
+- npm install
+- 2️⃣ Configure o arquivo .env
+- Crie um arquivo .env dentro da pasta backend:
 
-Código
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=sua_senha
-DB_DATABASE=cadastro_usuario
-3️⃣ Inicie o servidor
-bash
-node server.js
-O servidor iniciará em:
+- Código
+- DB_HOST=localhost
+- DB_USER=root
+- DB_PASSWORD=sua_senha
+- DB_DATABASE=cadastro_usuario
+- 3️⃣ Inicie o servidor
+- bash
+- node server.js
+- O servidor iniciará em:
 
-Código
-http://localhost:3000
-🗄️ Estrutura da Tabela no MySQL
-Execute no MySQL:
+- Código
+- http://localhost:3000
+- 🗄️ Estrutura da Tabela no MySQL
+- Execute no MySQL:
 
-sql
-CREATE DATABASE cadastro_usuario;
+- sql
+- CREATE DATABASE cadastro_usuario;
 
-USE cadastro_usuario;
+- USE cadastro_usuario;
 
-CREATE TABLE usuarios (
+<code> CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL
-);
-🔄 Rotas da API
-Método	Rota	Descrição
-GET	/usuarios	Lista todos os usuários
-POST	/usuarios	Cadastra um novo usuário
-PUT	/usuarios/:id	Atualiza um usuário existente
-DELETE	/usuarios/:id	Remove um usuário
+);</code>
+
+- 🔄 Rotas da API
+- Método	Rota	Descrição
+- GET	/usuarios	Lista todos os usuários
+- POST	/usuarios	Cadastra um novo usuário
+- PUT	/usuarios/:id	Atualiza um usuário existente
+- DELETE	/usuarios/:id	Remove um usuário
 
 # 🖥️ Funcionalidades do Frontend
 Formulário para cadastrar usuários
@@ -96,10 +97,9 @@ Atualização automática após cada ação
 
 Comunicação com o backend via Fetch API
 
-📸 Captura de Tela
+# 📸 Captura de Tela Interface do CRUD de Usuários funcionando no navegador
 
-Interface do CRUD de Usuários funcionando no navegador
-### ✨ Evolução do Layout
+## ✨ Evolução do Layout
 A interface foi redesenhada para ficar mais moderna, organizada e agradável ao usuário.
 
 <h2 align="center">📸 Antes e Depois</h2>
