@@ -96,7 +96,7 @@ Atualização automática após cada ação
 Comunicação com o backend via Fetch API
 
 📸 Captura de Tela
-(Adicione aqui a imagem do seu CRUD depois que subir no GitHub)
+![Tela do CRUD](./assets/tela.png)
 
 📌 Objetivo do Projeto
 Este projeto foi desenvolvido com foco em aprendizado, praticando:
