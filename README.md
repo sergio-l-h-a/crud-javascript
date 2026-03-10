@@ -106,9 +106,6 @@ MySQL
 
 ## Interface do CRUD de Usuários funcionando no navegador
 
-#### ✨ Evolução do Layout
-A interface foi redesenhada para ficar mais moderna, organizada e agradável ao usuário.
-
 <h2 align="center">📸 Antes e Depois</h2>
 
 <p align="center"><b>Antes</b></p>
