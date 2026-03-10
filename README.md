@@ -30,22 +30,23 @@ MySQL
 ### 📂 Estrutura do Projeto
 - Código
 - crud-usuario/
-│
-├── backend/
-│   ├── controllers/
-│   │   └── usuariosController.js
-│   ├── database/
-│   │   └── db.js
-│   ├── routes/
-│   │   └── usuariosRoutes.js
-│   ├── .env
-│   ├── .gitignore
-│   └── server.js
-│
-└── frontend/
-    ├── index.html
-    ├── script.js
-    └── styles.css
+- │
+- ├── backend/
+- │   ├── controllers/
+- │   │   └── usuariosController.js
+- │   ├── database/
+- │   │   └── db.js
+- │   ├── routes/
+- │   │   └── usuariosRoutes.js
+- │   ├── .env
+- │   ├── .gitignore
+- │   └── server.js
+- │
+- └── frontend/
+-     ├── index.html
+-     ├── script.js
+-     └── styles.css
+
 ### ⚙️ Configuração do Backend
 - 1️⃣ Instale as dependências
 - bash
@@ -65,7 +66,8 @@ MySQL
 
 - Código
 - http://localhost:3000
-- 🗄️ Estrutura da Tabela no MySQL
+- 
+### 🗄️ Estrutura da Tabela no MySQL
 - Execute no MySQL:
 
 - sql
@@ -86,20 +88,23 @@ MySQL
 - PUT	/usuarios/:id	Atualiza um usuário existente
 - DELETE	/usuarios/:id	Remove um usuário
 
-# 🖥️ Funcionalidades do Frontend
-Formulário para cadastrar usuários
+### 🖥️ Funcionalidades do Frontend
 
-Tabela dinâmica com listagem
+- Formulário para cadastrar usuários
 
-Botões de Editar e Excluir
+- Tabela dinâmica com listagem
 
-Atualização automática após cada ação
+- Botões de Editar e Excluir
 
-Comunicação com o backend via Fetch API
+- Atualização automática após cada ação
 
-# 📸 Captura de Tela Interface do CRUD de Usuários funcionando no navegador
+- Comunicação com o backend via Fetch API
 
-## ✨ Evolução do Layout
+# 📸 Captura de Tela 
+
+## Interface do CRUD de Usuários funcionando no navegador
+
+#### ✨ Evolução do Layout
 A interface foi redesenhada para ficar mais moderna, organizada e agradável ao usuário.
 
 <h2 align="center">📸 Antes e Depois</h2>
