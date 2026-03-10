@@ -59,7 +59,8 @@ MySQL
 - DB_USER=root
 - DB_PASSWORD=sua_senha
 - DB_DATABASE=cadastro_usuario
-- 3️⃣ Inicie o servidor
+
+ ### 3️⃣ Inicie o servidor
 - bash
 - node server.js
 - O servidor iniciará em:
@@ -81,7 +82,7 @@ MySQL
     email VARCHAR(150) NOT NULL
 );</code>
 
-- 🔄 Rotas da API
+### 🔄 Rotas da API
 - Método	Rota	Descrição
 - GET	/usuarios	Lista todos os usuários
 - POST	/usuarios	Cadastra um novo usuário
@@ -113,6 +114,9 @@ A interface foi redesenhada para ficar mais moderna, organizada e agradável ao 
 <p align="center">
   <img src="./assets/layout simples.png" width="700">
 </p>
+
+#### ✨ Evolução do Layout
+A interface foi redesenhada para ficar mais moderna, organizada e agradável ao usuário.
 
 <p align="center"><b>Depois</b></p>
 <p align="center">
