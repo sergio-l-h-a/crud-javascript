@@ -5,7 +5,7 @@ async function listar() {
     const res = await fetch(API);
     const usuarios = await res.json();
 
-    const tabela = document.getElementById("tabela");
+    const tabela = document.getElementById("listaUsuarios");
     tabela.innerHTML = "";
 
     usuarios.forEach(u => {
@@ -15,12 +15,13 @@ async function listar() {
                 <td>${u.nome}</td>
                 <td>${u.email}</td>
                 <td>
-                    <button onclick="editar(${u.id})">Editar</button>
-                    <button onclick="deletar(${u.id})">Excluir</button>
+                    <button class="btn-editar" onclick="editar(${u.id})">Editar</button>
+                    <button class="btn-excluir" onclick="deletar(${u.id})">Excluir</button>
                 </td>
             </tr>
         `;
     });
+
 }
 
 // CADASTRAR

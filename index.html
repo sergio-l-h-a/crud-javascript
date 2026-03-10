@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <title>CRUD Usuários</title>
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Cadastro de Usuários</h1>
 
-<h1>Cadastro de Usuários</h1>
+        <form id="form">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="Email">
+            <button type="submit">Cadastrar</button>
+        </form>
 
-<form id="form">
-    <input type="text" id="nome" placeholder="Nome">
-    <input type="email" id="email" placeholder="Email">
-    <button type="submit">Cadastrar</button>
-</form>
+        <h2>Lista de Usuários</h2>
 
-<h2>Lista de Usuários</h2>
-<table border="1">
-    <thead>
-        <tr>
-            <th>ID</th><th>Nome</th><th>Email</th><th>Ações</th>
-        </tr>
-    </thead>
-    <tbody id="tabela"></tbody>
-</table>
-
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="listaUsuarios"></tbody>
+        </table>
+    </div>
 </body>
+
 </html>
