@@ -1,0 +1,58 @@
+# ===========================
+# Node.js / Backend
+# ===========================
+
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+dist/
+build/
+tmp/
+temp/
+
+# Banco SQLite (caso use)
+*.sqlite
+*.sqlite3
+
+# ===========================
+# Frontend
+# ===========================
+
+# Dependências do frontend (caso use npm no frontend)
+frontend/node_modules/
+
+# Build do frontend
+frontend/dist/
+frontend/build/
+
+# ===========================
+# Sistema / Editor
+# ===========================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Git
+# ===========================
+
+# Arquivos de merge
+*.orig
