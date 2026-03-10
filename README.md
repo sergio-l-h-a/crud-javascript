@@ -97,6 +97,10 @@ Comunicação com o backend via Fetch API
 
 📸 Captura de Tela
 ![Tela do CRUD](./assets/screenshot.png)
+Interface do CRUD de Usuários funcionando no navegador
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Tela do CRUD" width="700">
+</p>
 
 📌 Objetivo do Projeto
 Este projeto foi desenvolvido com foco em aprendizado, praticando:
