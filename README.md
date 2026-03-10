@@ -5,7 +5,8 @@
 Este projeto é um CRUD completo de usuários, desenvolvido com JavaScript puro no frontend e Node.js + Express + MySQL no backend.
 Permite cadastrar, listar, editar e excluir usuários de forma simples e eficiente.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
+
 ### Frontend
 - HTML5
 
@@ -48,10 +49,10 @@ MySQL
 -     └── styles.css
 
 ### ⚙️ Configuração do Backend
-- 1️⃣ Instale as dependências
+### 1️⃣ Instale as dependências
 - bash
 - npm install
-- 2️⃣ Configure o arquivo .env
+### 2️⃣ Configure o arquivo .env
 - Crie um arquivo .env dentro da pasta backend:
 
 - Código
