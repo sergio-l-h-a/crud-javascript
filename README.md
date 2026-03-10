@@ -1,28 +1,28 @@
 # crud-javascript
 "Projeto de estudo demonstrando um CRUD completo com JavaScript."
 
-📘 CRUD de Usuários — JavaScript, Node.js, Express e MySQL
+# 📘 CRUD de Usuários — JavaScript, Node.js, Express e MySQL
 Este projeto é um CRUD completo de usuários, desenvolvido com JavaScript puro no frontend e Node.js + Express + MySQL no backend.
 Permite cadastrar, listar, editar e excluir usuários de forma simples e eficiente.
 
 🚀 Tecnologias Utilizadas
-Frontend
-HTML5
+### Frontend
+- HTML5
 
-CSS3
+- CSS3
 
-JavaScript (Fetch API)
+- JavaScript (Fetch API)
 
-Backend
-Node.js
+### Backend
+- Node.js
 
-Express
+- Express
 
-MySQL2 (Promise)
+- MySQL2 (Promise)
 
-Dotenv
+- Dotenv
 
-CORS
+- CORS
 
 Banco de Dados
 MySQL
@@ -84,7 +84,8 @@ GET	/usuarios	Lista todos os usuários
 POST	/usuarios	Cadastra um novo usuário
 PUT	/usuarios/:id	Atualiza um usuário existente
 DELETE	/usuarios/:id	Remove um usuário
-🖥️ Funcionalidades do Frontend
+
+# 🖥️ Funcionalidades do Frontend
 Formulário para cadastrar usuários
 
 Tabela dinâmica com listagem
@@ -98,6 +99,9 @@ Comunicação com o backend via Fetch API
 📸 Captura de Tela
 
 Interface do CRUD de Usuários funcionando no navegador
+### ✨ Evolução do Layout
+A interface foi redesenhada para ficar mais moderna, organizada e agradável ao usuário.
+
 <h2 align="center">📸 Antes e Depois</h2>
 
 <p align="center"><b>Antes</b></p>
@@ -111,18 +115,18 @@ Interface do CRUD de Usuários funcionando no navegador
 </p>
 
 
-📌 Objetivo do Projeto
-Este projeto foi desenvolvido com foco em aprendizado, praticando:
+### 📌 Objetivo do Projeto
+- Este projeto foi desenvolvido com foco em aprendizado, praticando:
 
-Integração frontend ↔ backend
+- Integração frontend ↔ backend
 
-Consumo de API REST
+- Consumo de API REST
 
-Manipulação de banco de dados
+- Manipulação de banco de dados
 
-Organização de código com MVC simples
+- Organização de código com MVC simples
 
-Uso de variáveis de ambiente
+- Uso de variáveis de ambiente
 
 🧑‍💻 Autor
 Francisco Sérgio  
