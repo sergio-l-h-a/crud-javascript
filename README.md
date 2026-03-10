@@ -96,7 +96,7 @@ Atualização automática após cada ação
 Comunicação com o backend via Fetch API
 
 📸 Captura de Tela
-![Tela do CRUD](./assets/screenshot.png)
+
 Interface do CRUD de Usuários funcionando no navegador
 <p align="center">
   <img src="./assets/screenshot.png" alt="Tela do CRUD" width="700">
